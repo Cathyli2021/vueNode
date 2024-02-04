@@ -28,6 +28,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/helloNode.vue"),
   },
+  {
+    path: "/login",
+    name: "login",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/loginForm.vue"),
+  },
 ];
 
 const router = new VueRouter({

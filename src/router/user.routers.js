@@ -10,4 +10,4 @@ router.get('/getInfo', function (req, res) {
 	res.send(JSON.stringify(response));
 });
 
-module.exports = rouçter;
+module.exports = router;

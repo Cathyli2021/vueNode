@@ -1,5 +1,6 @@
 module.exports = {
   transpileDependencies: true,
+  lintOnSave: false,  // 解除语法强校验
   devServer: {
     proxy: {
       '/api': {
